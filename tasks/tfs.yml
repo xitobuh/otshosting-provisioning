@@ -28,6 +28,7 @@
   git:
     repo: https://github.com/otland/forgottenserver.git
     dest: /home/otsmanager/forgottenserver
+    version: 8.6-downgrade
   become: true
   become_user: otsmanager
 
