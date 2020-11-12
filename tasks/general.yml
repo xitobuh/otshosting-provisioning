@@ -60,11 +60,3 @@
   file:
     path: /etc/update-motd.d/51-cloudguest
     state: absent
-
-- name: Install welcome message
-  template:
-    src: templates/61-otshosting-motd
-    dest: /etc/update-motd.d/61-otshosting-motd
-    owner: root
-    group: root
-    mode: 0755
