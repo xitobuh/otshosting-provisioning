@@ -12,7 +12,7 @@ A script to run on a standalone machine to provision it. If user "otsmanager" do
 ```bash
 #!/bin/bash -ex
 apt-get update
-apt install -y -q python-simplejson git-core ansible
+apt install -y -q python-simplejson git-core ansible ansible-pull
 ansible-pull -i localhost, -U https://github.com/xitobuh/otshosting-provisioning.git -d /srv/otshosting-provisioning --purge -t default
 ```
 
