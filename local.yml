@@ -94,11 +94,11 @@
 
     - include: tasks/znoteaac.yml
       tags:
-        - default
         - znote
 
     - include: tasks/myaac.yml
       tags:
+        - default
         - myaac
 
     - include: tasks/general-last.yml
